@@ -8,7 +8,7 @@ body {
 
 .container {
     display: flex;
-    height: 850px;
+    height: 100%;
     margin: 0 330px;
     background: #fff;
 }
@@ -82,33 +82,192 @@ hr {
 
 .frontend {
     display: flex;
-
 }
 
 .label {
-    width: 30%;
+    width: 41%;
 }
 
 .progressbar {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
     margin: 15px 0;
+    margin-right: 25px;
+    margin-left: 10px;
 }
 
 .pourcentage {
-    width: 20%;
+    width: 10%;
 }
 
-.progressbar-bleu {
-    position: absolute;
+.progressbar-bleu.html {
+
 
     background: rgb(0, 242, 255);
-    height: 6px;
+    height: 10px;
+    width: 90%;
+    border-radius: 10px;
 
 }
 
-.progressbar-noir {
-    position: relative;
-    background: #121212;
-    height: 3px;
+.progressbar-noir.html {
 
+    background: #121212;
+    height: 10px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.progressbar-bleu.css {
+
+
+    background: rgb(0, 242, 255);
+    height: 10px;
+    width: 70%;
+    border-radius: 10px;
+
+}
+
+.progressbar-noir.css {
+
+    background: #121212;
+    height: 10px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.progressbar-bleu.js {
+
+
+    background: rgb(0, 242, 255);
+    height: 10px;
+    width: 70%;
+    border-radius: 10px;
+
+}
+
+.progressbar-noir.js {
+
+    background: #121212;
+    height: 10px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.backend {
+    display: flex;
+}
+
+.progressbar-bleu.py {
+
+
+    background: rgb(0, 242, 255);
+    height: 10px;
+    width: 50%;
+    border-radius: 10px;
+
+}
+
+.progressbar-noir.py {
+
+    background: #121212;
+    height: 10px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.progressbar-bleu.node {
+
+
+    background: rgb(0, 242, 255);
+    height: 10px;
+    width: 50%;
+    border-radius: 10px;
+
+}
+
+.progressbar-noir.node {
+
+    background: #121212;
+    height: 10px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.bd {
+    display: flex;
+}
+
+.progressbar-bleu.mysql {
+
+
+    background: rgb(0, 242, 255);
+    height: 10px;
+    width: 50%;
+    border-radius: 10px;
+
+}
+
+.progressbar-noir.mysql {
+
+    background: #121212;
+    height: 10px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.git {
+    display: flex;
+}
+
+.progressbar-bleu.git {
+
+
+    background: rgb(0, 242, 255);
+    height: 10px;
+    width: 60%;
+    border-radius: 10px;
+
+}
+
+.progressbar-noir.git {
+
+    background: #121212;
+    height: 10px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.info {
+    display: flex;
+    align-items: space-between;
+}
+
+.hr {
+    margin: 0;
+}
+
+.separator {
+
+
+    border-left: 2px solid #121212;
+    height: 250px;
+    margin: 0 25px;
+}
+
+.centre {
+    width: 49%;
+}
+
+.langue {
+    width: 49%;
 }
